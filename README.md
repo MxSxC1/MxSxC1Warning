@@ -2,7 +2,8 @@
 This is the blurb nobody reads, the warnings, the disclaimers, but wouldn't it be nice if someone wrote it FOR the user, not as a get out of jail card? Don't trust us! Don't trust anyone! Educate yourself before doing anything!
 
 # Paranoid - Exhibiting or characterized by extreme and irrational fear or distrust of others
-# That word - irrational - is key. It's not paranoia if it's proven with solid undeniable evidence...even though that evidence is becoming more and more difficult to find, and decrypt...it's there in abundance for all to see, and we can show you how.
+
+#That word "irrational" is key. It's not paranoia if it's proven with solid undeniable evidence. It's there in abundance for all to see, in fact we are drowning in it, and we can show you how to see the tip of the iceberg.
 
 #TRUST NOBODY! INCLUDING US!
 #POWERSHELL SCRIPTS CAN BE USED TO COMPROMISE YOUR SYSTEM!
