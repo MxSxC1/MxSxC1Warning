@@ -1,8 +1,16 @@
 Execution Policy
-See disclaimer - NEVER EVER MESS WITH THIS UNLESS YOU KNOW WHAT YOU'RE DOING...AND WE DON'T, AND DON'T TRUST US! 
+See disclaimer - NEVER EVER MESS WITH THIS UNLESS YOU KNOW WHAT YOU'RE DOING...AND WE DON'T!!!!
+AND DON'T TRUST US! WE MAY BE TRYING TO GET YOU TO RUN COMMANDS WHICH WILL HACK YOUR SYSTEM...
+
+YOU ARE SAFE TO RUN THE "Get" COMMANDS (DON'T TRUST US)!
+BE VERY WARY OF TOUCHING THE "Set" COMMANDS. AND NEVER USE -Force without testing first...
+
 THIS IS ADVICE FROM SOMEONE WHO IS NOT AN EXPERT, AND MAY BE WRONG, BUT IS BASED ON MICROSOFTS OFFICIAL INFORMATION, LIKE THAT CAN BE TRUSTED.
 NEVER MESS WITH EXECUTION POLICIES...BUT BE AWARE EVERYONE ELSE ALREADY HAS, AND CREATING A SIGNED SCRIPT IS A LITTLE CLUNKY BUT NOT HARD.
-IN FACT WE WILL SHOW YOU HOW (TO SECURE YOUR SCRIPTS)
+IN FACT WE WILL SHOW YOU HOW (TO SECURE YOUR SCRIPTS, FOR NOT MALICIOUS REASON)
+
+This is a walkthrough of the process, and explanation...of course we will script this, and the script will be added here, but this is for educational purposes. Educating myself as I go, so any comments/mistakes/utter nonsense/let me know.
+Details on signing scripts and proper security incoming...
 
 From Microsoft: 
 ---
@@ -45,3 +53,48 @@ So, if I change it to "Restricted" it should make no difference as I'm not runni
 PS C:\Users\MxSxC1> Set-ExecutionPolicy Restricted
 
 Let's see what we break...
+Nothing, though 2 of them don't work and need to be set up through GPO.
+
+#WARNING - NEVER USE THE -Force command without testing without first...it will not give you a warning!!!
+
+Set-ExecutionPolicy Restricted -Force #LocalMachine is default
+Set-ExecutionPolicy -Scope MachinePolicy Restricted -Force # Group Policy
+Set-ExecutionPolicy -Scope UserPolicy Restricted -Force # Group Policy
+Set-ExecutionPolicy -Scope Process Restricted -Force # Only for current session/powershell, so pretty much useless, spin up new session and will be Undefined again.
+Set-ExecutionPolicy -Scope CurrentUser Restricted -Force
+Set-ExecutionPolicy -Scope LocalMachine Restricted -Force
+
+PS C:\Windows\system32> Get-ExecutionPolicy -List 
+
+        Scope ExecutionPolicy
+        ----- ---------------
+MachinePolicy       Undefined
+   UserPolicy       Undefined
+      Process      Restricted
+  CurrentUser      Restricted
+ LocalMachine      Restricted
+ 
+So, we have "locked down" 3/5 here? No not really, we have done 2, and not really anyway. 
+
+Process is, limited to the process funnily enough. So let's spin up a new powershell session and try that command again?
+
+PS C:\Windows\system32> Get-ExecutionPolicy -List
+        Scope ExecutionPolicy
+        ----- ---------------
+MachinePolicy       Undefined
+   UserPolicy       Undefined
+      Process       Undefined
+  CurrentUser      Restricted
+ LocalMachine      Restricted
+ 
+So...what we want is to make it so the default for process is "Restricted" surely...
+
+Well that's next on the list, along with GPO...incoming.
+
+Who ever thought it would be this complex.
+
+Next Stage Incoming...with scripts.
+
+
+
+
