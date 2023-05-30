@@ -1,0 +1,47 @@
+Execution Policy
+See disclaimer - NEVER EVER MESS WITH THIS UNLESS YOU KNOW WHAT YOU'RE DOING...AND WE DON'T, AND DON'T TRUST US! 
+THIS IS ADVICE FROM SOMEONE WHO IS NOT AN EXPERT, AND MAY BE WRONG, BUT IS BASED ON MICROSOFTS OFFICIAL INFORMATION, LIKE THAT CAN BE TRUSTED.
+NEVER MESS WITH EXECUTION POLICIES...BUT BE AWARE EVERYONE ELSE ALREADY HAS, AND CREATING A SIGNED SCRIPT IS A LITTLE CLUNKY BUT NOT HARD.
+IN FACT WE WILL SHOW YOU HOW (TO SECURE YOUR SCRIPTS)
+
+From Microsoft: 
+---
+Restricted
+The default execution policy for Windows client computers.
+Permits individual commands, but does not allow scripts.
+Prevents running of all script files, including formatting and configuration files (.ps1xml), module script files (.psm1), and PowerShell profiles (.ps1).
+---
+
+So take out from that.
+1. This should be default!
+2. Allow individual commands (dangerous in itself as they can be used to bypass this)
+
+So let's try this out (on my machine, not yours) and never ever use "Set" commands:
+
+PS C:\Users\MxSxC1> Get-ExecutionPolicy -Scope CurrentUser
+Undefined
+
+PS C:\Users\MxSxC1> Get-ExecutionPolicy -List
+
+        Scope ExecutionPolicy
+        ----- ---------------
+MachinePolicy       Undefined
+   UserPolicy       Undefined
+      Process       Undefined
+  CurrentUser       Undefined
+ LocalMachine       Undefined
+
+So what does "Undefined" mean?
+---
+Undefined
+There is no execution policy set in the current scope.
+If the execution policy in all scopes is Undefined, the effective execution policy is Restricted for Windows clients and RemoteSigned for Windows Server.
+---
+
+So straight off the bat, I am not using "Restricted" (well I kind of am, but why would I have this option for Windows Server in there? I think not.
+
+So, if I change it to "Restricted" it should make no difference as I'm not running a Windows Server...
+
+PS C:\Users\MxSxC1> Set-ExecutionPolicy Restricted
+
+Let's see what we break...
