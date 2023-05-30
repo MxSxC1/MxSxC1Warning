@@ -9,10 +9,11 @@ This is the blurb nobody reads, the warnings, the disclaimers, but wouldn't it b
 #POWERSHELL SCRIPTS CAN BE USED TO COMPROMISE YOUR SYSTEM!
 #BATCH FILES/EXES/ETC CAN BE USED TO COMPROMISE YOUR SYSTEM!
 #PRETTY MUCH ANYTHING CAN BE USED TO COMPROMISE YOUR SYSTEM!
+#YOUR SYSTEM IS COMPROMISED FROM THE FIRST TIME YOU SWITCH IT ON (EVEN IF YOU SPEND HOURS LOCKING IT DOWN AND CHECKIGN BIOS AND CLEANING IT DOWN FIRST)
 #MINECRAFT MODS/LAUNCHERS/ADDONS/PACKS CAN BE USED TO COMPROMISE OUR SYSTEM!
 #THAT WARNING ABOUT RUNNING SOMETHING WITH ELEVATION, WELL FOR ONCE MICROSOFT IS RIGHT!
 #HEED THAT WARNING, THINK ABOUT IT HARD, EVEN WITH VERIFIED APPLICATION/PUBLISHER/IN FACT ESPECIALLY SO - SOME OF THEM ARE THE REAL EVIL HERE...
-"DO NOT CHANGE EXECUTION POLICY" - Some of our scripts need it, full vesion of WOlverine needs it, some things won't work without....but do not change it! ANd if you do, follow our instructions for doing it safely and properly, and generating certificates and code signing if you need to!
+"DO NOT CHANGE EXECUTION POLICY" - Some of our scripts need it, full vesion of Wolverine needs it, some things won't work without...but do not change it! And if you do, follow our instructions for doing it safely and properly, and generating certificates and code signing if you need to!
 #SEE OUR TUTORIALS ON CHECKSUM/MD5 VALIDATION
 
 #OUR SCRIPTS AND APPLICATIONS ARE THERE TO PROTECT YOU - THE USER, AND YOUR PRIVACY, AND EDICATE AND HIGHLIGHT AREAS OF CONCERN
