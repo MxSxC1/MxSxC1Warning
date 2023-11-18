@@ -27,7 +27,7 @@ Strange Days - Max: "The issue's not whether you're paranoid, Lenny, I mean look
 
 #BATCH FILES/EXES/ETC CAN BE USED TO COMPROMISE YOUR SYSTEM!
 
-#YOUR SYSTEMS DEFAULT SETTINGS ARE SO FULL OF HOLES AND SECUIRTY FLAWS IT IS RIDICULOUS, AND YOU TRY PLUG THEM, WON'T LAST LONG.
+#YOUR SYSTEMS DEFAULT SETTINGS ARE SO FULL OF HOLES AND SECURITY FLAWS IT IS RIDICULOUS. YOU TRY PLUG THEM, WON'T LAST LONG.
 
 Some useful links - Don't just click on them, verify them first!
 
@@ -49,12 +49,11 @@ https://www.minecraft.net/en-us/article/the-official-minecraft-server-list-live
 Partnership Ideas? Removed the XXX - Always read the small print, poor show Microsoft - think long and hard: "receiving and evaluating any submission will not preclude Microsoft from offering, promoting, or developing products that compete with your product or concept, or working with others to do so."
 httXXXps://partnerships.minecraft.net/hc/en-us/requests/new?ticket_form_id=360001261291
 
-
-"DO NOT CHANGE EXECUTION POLICY" - Some of our scripts need it, full vesion of Wolverine needs it, some things won't work without...but do not change it! And if you do, follow our instructions for doing it safely and properly, and generating certificates and code signing if you need to!
+"DO NOT CHANGE EXECUTION POLICY" - Some of our scripts need it to work fully. The full vesion of Wolverine needs it, which is why we produced Wolvmini. Do not change this, and if you do you should be using code signing certificates and know what you're doing! 
 
 #SEE OUR TUTORIALS ON CHECKSUM/MD5 VALIDATION
 
-#OUR SCRIPTS AND APPLICATIONS ARE THERE TO PROTECT YOU - THE USER, AND YOUR PRIVACY, AND EDUCATE AND HIGHLIGHT AREAS OF CONCERN
+#OUR SCRIPTS AND APPLICATIONS ARE THERE TO PROTECT YOU - THE USER, AND YOUR PRIVACY, AND EDUCATE AND HIGHLIGHT AREAS OF CONCERN.
 
 #THEY LET YOU DETECT, KILL AND REMOVE THINGS YOU DON'T WANT AND KEEP ON DOING IT 
 
@@ -72,9 +71,9 @@ httXXXps://partnerships.minecraft.net/hc/en-us/requests/new?ticket_form_id=36000
 
 #USE A VM OR ANOTHER MACHINE
 
-#NEVER RUN AS ADMIN USER (TO START WITH) YOU SHOULD ALWAYS HAVE A LOCAL USER ANYWAY FOR "EVERYTHING ELSE"
+#NEVER RUN AS ADMIN USER (TO START WITH) YOU SHOULD ALWAYS HAVE A LOCAL USER ANYWAY FOR "EVERYTHING ELSE". AND WHEN THAT WARNING POPS UP ASKING FOR ADMIN, THINK LONG AND HARD, CHECK THE PROPERTIES, CHECK THE CETIFICATE.
 
-#TURN OFF YOUR INTERNET WHILE TESTING, AND USE FIREWALLX. WOLVERINE AND FIRSTRECON TO SEE WHAT IT IS DOING
+#TURN OFF YOUR INTERNET WHILE TESTING, AND USE FIREWALLX. WOLVERINE AND FIRSTRECON, OR WIRESHARK, TO SEE WHAT IT IS DOING...OR TRYING TO DO.
 
 #USE WIRESHARK AND OUR NETWORK MONITOR WHEN YOU TURN INTERNET ON
 
@@ -92,9 +91,9 @@ httXXXps://partnerships.minecraft.net/hc/en-us/requests/new?ticket_form_id=36000
 
 #EVERYTHING IS TESTED, BUT ONLY ON OUR SETUP, AND THINGS CHANGE, YOU WOULD BE STUPID TO BLINDLY RUN ANY OF OUR SCRIPTS WITHOUT TESTING
 
-#POWERSHELL WITH ELEVATION - REALLY REALLY DO NOT DO THIS, THOUGH SOME OF OUR SCRIPTS NEED IT, WE DO NOT ADVISE
+#POWERSHELL WITH ELEVATION - REALLY REALLY DO NOT DO THIS, THOUGH SOME OF OUR SCRIPTS NEED IT, WE DO NOT ADVISE IT...
 
-#You can use elevator[removed].xxx (Wolverine) to spawn with changed ExecutionPolicy and elevation.
+#You can use elevator[removed].xxx (Wolverine) to spawn with changed ExecutionPolicy and elevation. This is very very very dangerous!
 
 #THIS SCRIPT IS NOT RELEASED CURRENTLY, IT IS NOTHING GROUND BREAKING, IT IS JUST TOO DANGEROUS...
 
