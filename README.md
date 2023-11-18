@@ -1,9 +1,25 @@
 # MxSxC1Warning
-This is the blurb nobody reads, the warnings, the disclaimers. But wouldn't it be nice if someone wrote it FOR the user, not as a get out of jail card? Don't trust us! Don't trust anyone! Educate yourself before doing anything, think before you click anything!
+This is the blurb nobody reads, the warnings, the disclaimers. But wouldn't it be nice if someone wrote it FOR the user, not as a get out of jail card? Don't trust us! Don't trust anyone! Educate yourself before running anything, think before you click anything!
+
+All of our packs are safe, and done within datapacks. We don't use mods, we don't use mixins, we don' use Code Injection, and we don't use anything which is a security or provacy risk. Everything we do is within the Minecraft Framework...
+
+But don't trust us, check it yourself!
 
 # Paranoid - Exhibiting or characterized by extreme and irrational fear or distrust of others
 
-#That word "irrational" is key. It's not paranoia if it's proven with solid undeniable evidence. It's there in abundance for all to see, in fact we are drowning in it, and we can show you how to see the tip of the iceberg.
+#That word "irrational" is key. It's not paranoia if it's proven with solid undeniable evidence. It's there in abundance for all to see, in fact we are drowning in it. And we can show you how to see the tip of the iceberg.
+
+Strange Days - Max: "The issue's not whether you're paranoid, Lenny, I mean look at this s^*%, the issue is whether you're paranoid enough!"
+
+#MINECRAFT MODS/LAUNCHERS/ADDONS/PACKS CAN (AND IN MANY MANY CASES HAVE BEEN PROVEN TO) COMPROMISE YOUR SYSTEM! 
+
+#ASKED TO UPDATE YOUR JAVA PATH? NO!
+
+#ASKED TO TURN OFF PLAYER REPORTING/CHAT FEATURES? THINK WHY?
+
+#READ THE SMALL PRINT!
+
+#THAT WARNING ABOUT RUNNING SOMETHING WITH ELEVATION, WELL FOR ONCE MICROSOFT IS RIGHT!
 
 #TRUST NOBODY! INCLUDING US!
 
@@ -11,17 +27,28 @@ This is the blurb nobody reads, the warnings, the disclaimers. But wouldn't it b
 
 #BATCH FILES/EXES/ETC CAN BE USED TO COMPROMISE YOUR SYSTEM!
 
-#PRETTY MUCH ANYTHING CAN BE USED TO COMPROMISE YOUR SYSTEM!
-
-#YOUR SYSTEM IS COMPROMISED FROM THE FIRST TIME YOU SWITCH IT ON (EVEN IF YOU SPEND HOURS LOCKING IT DOWN, CHECKING BIOS, RESET TPM, SET UEFI PROPERLY, AND CLEAN IT DOWN FIRST).
-
 #YOUR SYSTEMS DEFAULT SETTINGS ARE SO FULL OF HOLES AND SECUIRTY FLAWS IT IS RIDICULOUS, AND YOU TRY PLUG THEM, WON'T LAST LONG.
 
-#MINECRAFT MODS/LAUNCHERS/ADDONS/PACKS CAN BE USED TO COMPROMISE OUR SYSTEM! SERIOUSLY SERIOUSLY WORRYING. WHY IS EVERYONE STILL USING 1.19.2 OR BEFORE ON THEIR SERVERS?
+Some useful links - Don't just click on them, verify them first!
 
-#THAT WARNING ABOUT RUNNING SOMETHING WITH ELEVATION, WELL FOR ONCE MICROSOFT IS RIGHT!
+The most important one, and why not to use old versions! But be aware, your game me be up to date, your mods aren't, and can and do override this...
+https://help.minecraft.net/hc/en-us/articles/4416199399693
 
-#HEED THAT WARNING, THINK ABOUT IT HARD, EVEN WITH VERIFIED APPLICATION/PUBLISHER/IN FACT ESPECIALLY SO - SOME OF THEM ARE THE REAL EVIL HERE...
+Player Reporting: If only you knew what else they are locking down here, thankyou Mojang!
+https://help.minecraft.net/hc/en-us/articles/360052763631-Minecraft-Player-Safety-Features
+
+Realms Safety:
+https://help.minecraft.net/hc/en-us/articles/19931506781325
+
+Parental Controls:
+https://help.minecraft.net/hc/en-us/articles/4409976432013-Minecraft-Java-Edition-Parental-Control-Features-FAQ
+
+Official Server List: Love It
+https://www.minecraft.net/en-us/article/the-official-minecraft-server-list-live
+
+Partnership Ideas? Removed the XXX - Always read the small print, poor show Microsoft - think long and hard: "receiving and evaluating any submission will not preclude Microsoft from offering, promoting, or developing products that compete with your product or concept, or working with others to do so."
+httXXXps://partnerships.minecraft.net/hc/en-us/requests/new?ticket_form_id=360001261291
+
 
 "DO NOT CHANGE EXECUTION POLICY" - Some of our scripts need it, full vesion of Wolverine needs it, some things won't work without...but do not change it! And if you do, follow our instructions for doing it safely and properly, and generating certificates and code signing if you need to!
 
