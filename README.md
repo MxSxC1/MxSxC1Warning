@@ -1,7 +1,7 @@
 # MxSxC1Warning
 This is the blurb nobody reads, the warnings, the disclaimers. But wouldn't it be nice if someone wrote it FOR the user, not as a get out of jail card? Don't trust us! Don't trust anyone! Educate yourself before running anything, think before you click anything!
 
-All of our packs are safe, and done within datapacks. We don't use mods, we don't use mixins, we don' use Code Injection, and we don't use anything which is a security or provacy risk. Everything we do is within the Minecraft Framework...
+All of our packs are safe, and done within datapacks. We don't use mods, we don't use mixins, we don't use Code Injection, and we don't use anything which is a security or provacy risk. Everything we do is within the Minecraft Framework...
 
 But don't trust us, check it yourself!
 
