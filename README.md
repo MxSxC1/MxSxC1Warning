@@ -11,27 +11,23 @@ But don't trust us, check it yourself!
 
 Strange Days - Max: "The issue's not whether you're paranoid, Lenny, I mean look at this s^*%, the issue is whether you're paranoid enough!"
 
-#MINECRAFT MODS/LAUNCHERS/ADDONS/PACKS CAN (AND IN MANY MANY CASES HAVE BEEN PROVEN TO) COMPROMISE YOUR SYSTEM! 
+#Minecraft mods/launchers/addons/packs can (and in many many cases have been proven to) compromise your system! 
 
-#ASKED TO UPDATE YOUR JAVA PATH? NO!
+#Asked to update your java class path? No!
 
-#WHY ARE YOU (AND WHY IS EVERYONE WIHOUT ANY SENSE) RUNNING 1.12 (OR EARLIER)? THAT'S NO COINCIDENCE...
+#Why are you (and why is everyone without any sense) running 1.12 (or earlier)? That's no coincidence...
 
-#ASKED TO TURN OFF PLAYER REPORTING/CHAT FEATURES? THINK WHY?
+#Asked to turn off player reporting/chat features? Think why?
 
-#HAVE YOU ANY IDEA WHAT IS "ACTUALLY" BEING LOADED BEHIND THE SCENES?
+#Have you any idea what is "actually" being loaded behind the scenes? What dependencies are REALLY called?
 
-#READ THE SMALL PRINT!
+#read the small print!, that warning about running something with elevation, well for once microsoft is right!
 
-#THAT WARNING ABOUT RUNNING SOMETHING WITH ELEVATION, WELL FOR ONCE MICROSOFT IS RIGHT!
+#trust nobody! Including us!
 
-#TRUST NOBODY! INCLUDING US!
+#powershell,batch files,exes,scripts can be used to compromise your system!
 
-#POWERSHELL SCRIPTS CAN BE USED TO COMPROMISE YOUR SYSTEM!
-
-#BATCH FILES/EXES/ETC CAN BE USED TO COMPROMISE YOUR SYSTEM!
-
-#YOUR SYSTEMS DEFAULT SETTINGS ARE SO FULL OF HOLES AND SECURITY FLAWS IT IS RIDICULOUS.
+#your systems default settings are so full of holes and security flaws it is ridiculous.
 
 Some useful links - Don't just click on them, verify them first!
 
@@ -55,93 +51,81 @@ httXXXps://partnerships.minecraft.net/hc/en-us/requests/new?ticket_form_id=36000
 
 "DO NOT CHANGE EXECUTION POLICY" - Some of our scripts need it to work fully. The full version of Wolverine needs it, which is why we produced Wolvmini. Do not change this, and if you do you should be using code signing certificates and know what you're doing! 
 
-#SEE OUR TUTORIALS ON CHECKSUM/MD5 VALIDATION
+#See our tutorials on checksum/md5 validation
 
-#OUR SCRIPTS AND APPLICATIONS ARE THERE TO PROTECT YOU - THE USER, AND YOUR PRIVACY, AND EDUCATE AND HIGHLIGHT AREAS OF CONCERN.
+#Our scripts and applications are there to protect you - the user, and your privacy, and educate and highlight areas of concern.
 
-#THEY LET YOU DETECT, KILL AND REMOVE THINGS YOU DON'T WANT AND KEEP ON DOING IT 
+#They let you detect, kill and remove things you don't want and keep on doing it 
 
-#THEY CAN BE USED IN REVERSE, THEY CAN FIND WEAK LINKS IN YOUR SYSTEM AND COULD BE USED TO COMPROMISE IT
+#They can be used in reverse, they can find weak links in your system and could be used to compromise it
 
-#THEY CAN BE USED TO KILL THINGS YOU DO NOT WANT TO KILL
+#They can be used to kill things you do not want to kill, and then brick your system.
 
-#THEY CAN TOTALLY BRICK YOUR SYSTEM AND MAKE IT UNUSABLE
+#Once verified, don't trust us! Check it, test it, be sensible...
 
-#NEVER EVER RUN SCRIPTS UNLESS VERIFIED FROM US, AND FOLLOW ALL SAFETY GUIDELINES
+#Use a VM or another machine
 
-#THEN ONCE VERIFIED, DON'T TRUST US! CHECK IT, TEST IT, BE SENSIBLE...
+#Never run as admin user (to start with) you should always have a local user anyway for "everything else". And when that warning pops up asking for admin, think long and hard, check the properties, check the certificate.
 
-#USE A VM OR ANOTHER MACHINE
+#Turn off your internet while testing (don't think it protects you, most cache data until internet available), and use firewallx. Wolverine and firstrecon, or wireshark, to see what it is doing...OR Trying to do.
 
-#NEVER RUN AS ADMIN USER (TO START WITH) YOU SHOULD ALWAYS HAVE A LOCAL USER ANYWAY FOR "EVERYTHING ELSE". AND WHEN THAT WARNING POPS UP ASKING FOR ADMIN, THINK LONG AND HARD, CHECK THE PROPERTIES, CHECK THE CERTIFICATE.
+#Before you turn internet on, delete what you can of the cached data, some is obvious, less and less is not.
 
-#TURN OFF YOUR INTERNET WHILE TESTING, AND USE FIREWALLX. WOLVERINE AND FIRSTRECON, OR WIRESHARK, TO SEE WHAT IT IS DOING...OR TRYING TO DO.
+#Use wireshark and our network monitor when you turn internet on
 
-#USE WIRESHARK AND OUR NETWORK MONITOR WHEN YOU TURN INTERNET ON
+#powershell, batch scripts, and CLI commands can break your system. We accept no responsibility for any issues or failures.
 
-#POWERSHELL, BATCH SCRIPTS, AND CLI COMMANDS CAN BREAK YOUR SYSTEM. WE ACCEPT NO RESPONSIBILITY FOR ANY ISSUES OR FAILURES.
+#Windows is constantly changing, and locking down and preventing this sort of thing...They don't like their spyware being blocked
 
-#WINDOWS IS CONSTANTLY CHANGING, AND LOCKING DOWN AND PREVENTING THIS SORT OF THING...THEY DON'T LIKE THEIR SPYWARE BEING BLOCKED
+#They incorporate their spyware into core processes so if stopped, functionality stops working
 
-#THEY INCORPORATE THEIR SPYWARE INTO CORE PROCESSES SO IF STOPPED, FUNCTIONALITY STOPS WORKING
+#Never run a script or batch file without understanding what it does first, especially with elevation!
 
-#NEVER RUN A SCRIPT OR BATCH FILE WITHOUT UNDERSTANDING WHAT IT DOES FIRST, ESPECIALLY WITH ELEVATION!
+#use at your own risk, killing the wrong process, file, directory, registry entry, or any of the things we do, can cause some serious issues
 
-#USE AT YOUR OWN RISK, KILLING THE WRONG PROCESS, FILE, DIRECTORY, REGISTRY ENTRY, OR ANY OF THE THINGS WE DO, CAN CAUSE SOME SERIOUS ISSUES
+#everything is tested, but only on our setup, and things change, you would be stupid to blindly run any of our scripts without testing
 
-#EVERYTHING IS TESTED, BUT ONLY ON OUR SETUP, AND THINGS CHANGE, YOU WOULD BE STUPID TO BLINDLY RUN ANY OF OUR SCRIPTS WITHOUT TESTING
+#powershell with elevation - really really do not do this, though some of our scripts need it, we do not advise it...
 
-#POWERSHELL WITH ELEVATION - REALLY REALLY DO NOT DO THIS, THOUGH SOME OF OUR SCRIPTS NEED IT, WE DO NOT ADVISE IT...
+#You can use elevator[removed].xxx (wolverine) to spawn with changed ExecutionPolicy and elevation.
 
-#You can use elevator[removed].xxx (Wolverine) to spawn with changed ExecutionPolicy and elevation.
+#This script is not released currently, it is nothing ground breaking, it is just too dangerous...
 
-#THIS SCRIPT IS NOT RELEASED CURRENTLY, IT IS NOTHING GROUND BREAKING, IT IS JUST TOO DANGEROUS...
+#___what we do, we protect the user...
 
-#NEVER ADD SCRIPTS TO BE RUN by elevator[removed].xxx WITHOUT CHECKING THEM FIRST!
+#Cookies are useful, but really they went out with the dark ages, and are an awesome scape goat.
 
-#FOR DETAILS ON HOW TO SECURELY RUN ELEVATED POWERSHELL SCRIPTS WITH YOUR OWN CERTIFICATE, WE CAN HELP...
+#Don't believe us? We will show you and prove it...AND show you what they are trying to hide (and getting better at it every day)
 
-#___WHAT WE DO___
+#They don't need cookies, they don't need IP address, they have device id's, app id's, analytics, beacons, video card id, fingerprints, and link in to every device we can highlight a dozens for you, there are 1000's more! And it's all slowly being hidden and encrypted.
 
-#WE PROTECT THE USER...
+#There are simply thousands of identifiers being used, and x-ref'd with all your other devices, and any other device in your vicinity not even belonging to you. You don't even have the option to opt out. Device id's, MAC addresses, serial numbers, they can't be changed (well not easily).
 
-#COOKIES ARE AT BEST A SINGLE SHOT PISTOL, THEY WENT OUT WITH THE DARK AGES
+#Every piece of data you receive from the internet is:
 
-#DON'T BELIEVE US? WE WILL SHOW YOU AND PROVE IT...AND SHOW YOU WHAT THEY ARE TRYING TO HIDE (AND GETTING BETTER AT IT EVERY DAY)
+#Processed before it reaches you
 
-#THEY DON'T NEED COOKIES, TEHY DON'T NEED IP ADDRESS, THEY HAVE DEVICE ID'S, APP ID's, GOOGLE ANALYTICS, VIDEO CARD ID, APP ID'S, TEHY HAVE ID'S COMING OUT THEIR EARS, WE CAN HIGHLIGHT A FEW DOZEN FOR YOU, THERE ARE 1000'S MORE! AND THAT'S NOT EVEN THE SCARY STUFF!
+#Processed by CDN (in most cases, and soon to be all)
 
-#THERE ARE SIMPLY THOUSANDS OF IDENTIFIERS BEING USED, AND X-REF'D WITH ALL YOUR OTHER DEVICES, AND ANY OTHER DEVICE IN YOUR VICINITY NOT EVEN BELONGING TO YOU, AND YOU DON'T EVEN HAVE THE OPTION TO OPT OUT. DEVICE ID's, MAC ADDRESSES, SERIAL NUMBERS, THEY CAN'T BE CHANGED (WELL NOT EASILY).
+#Processed by your browser/app/javascript
 
-#EVERY PIECE OF DATA YOU RECEIVE FROM THE INTERNET (OR ANYWHERE), IS:
+#Processed by your video card (and the AI running it)
 
-#PROCESSED BEFORE IT REACHES YOU
+#At any point in that process, it can be changed...and at almost every point is tracked.
 
-#PROCESSED BY CDN (IN MOST CASES)
+#what you get is not what you see
 
-#PROCESSED BY YOUR BROWSER/APP/JAVASCRIPT
+#what you see is not what you get
 
-#PROCESSED BY YOUR VIDEO CARD
+#most web pages now are even built on the fly just for you, have you ever looked at all the javascript/tracking/code (mostly obfuscated)
 
-#AND AT ANY POINT IN THAT PROCESS, IT CAN BE CHANGED...
+#Have you ever run a wireshark capture and seen what happens when you don't even open a browser/app try opening a file, try saving a file...SEE What happens?
 
-#WHAT YOU GET IS NOT WHAT YOU SEE
+#You see nothing, or nothing much? Leave it running, and go AFK a while
 
-#WHAT YOU SEE IS NOT WHAT YOU GET
+#you think you can turn off firewall rules? Pointless unless you use firewallx (not a sales pitch the basic version is free software and works - only limitation being it uses an array and has no logging/database/reporting/elevation). You disable something, 10 minutes later, or next reboot, it overrides, and then it renames itself something else if it is blocked continuously.
 
-#MOST WEB PAGES NOW ARE EVEN BUILT ON THE FLY JUST FOR YOU
+#Trust nobody! Including us!
 
-#HAVE YOU EVER LOOKED AT ALL THE JAVASCRIPT/TRACKING/CODE (MOSTLY OBSFUCATED)
-
-#HAVE YOU EVER RUN A WIRESHARK CAPTURE AND SEEN WHAT HAPPENS WHEN YOU DON#T EVEN OPEN A BROWSER/APP TRY OPENING A FILE, TRY SAVING A FILE...SEE WHAT HAPPENS?
-
-#YOU SEE NOTHING, OR NOTHING MUCH? LEAVE IT RUNNING, AND GO AFK A WHILE
-
-#YOU THINK YOU CAN TURN OFF FIREWALL RULES?
-
-#FIREWALLX WILL PROVE TO YOU, IT IS USELESS...UNLESS YOU USE FIREWALLX (NOT A SALES PITCH THE BASIC VERSION IS FREE SOFTWARE AND WORKS - ONLY LIMITATION BEING IT USES AN ARRAY AND HAS NO LOGGING/DATABASE/REPORTING/ELEVATION). YOU DISABLE SOMETHING, 10 MINUTES LATER IT OVERRIDES, AND THEN IT RENAMES ITSELF SOMETHING ELSE IF IT IS BLOCKED CONTINOUSLY. (FIREWALLX HANDLES THIS, EVEN THE FREE VERSION TO AN EXTENT)
-
-#TRUST NOBODY! INCLUDING US!!!!
-
-#TIN FOIL HAT? PARANOID? IF YOU HAVE UNDENIABLE EVIDENCE AND PROOF, IS IT IRRATIONAL? THEN IT'S NOT PARANOIA...
-# Paranoid - Exhibiting or characterized by extreme and irrational fear or distrust of others
+#Tin foil hat? Paranoid? If you have undeniable evidence and proof, is it irrational? Then it's not paranoia...
+#Paranoid - exhibiting or characterized by extreme and irrational fear or distrust of others
